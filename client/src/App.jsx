@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FileUpload from "./components/FileUpload";
+import FileUpload from "./components/Fileupload";
 import PromptInput from "./components/PromptInput";
 import SummaryEditor from "./components/SummaryEditor";
 import EmailForm from "./components/EmailForm";
