@@ -16,7 +16,7 @@ export default function EmailForm({ emails, setEmails, title, setTitle, summary 
     }
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || "http://localhost:3000"}/send`, {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/send`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

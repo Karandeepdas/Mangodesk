@@ -5,7 +5,7 @@ import SummaryEditor from "./components/SummaryEditor";
 import EmailForm from "./components/EmailForm";
 import "./App.css";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_BASE = import.meta.env.VITE_API_URL 
 
 function App() {
   const [transcript, setTranscript] = useState("");
